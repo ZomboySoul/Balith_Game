@@ -1,0 +1,22 @@
+{
+    "nico": {
+        "clave": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "saldo": 101,
+        "deuda": 0,
+        "victorias": 4,
+        "derrotas": 2,
+        "empates": 0,
+        "racha_ganadas": 0,
+        "racha_perdidas": 1
+    },
+    "joa": {
+        "clave": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+        "saldo": 12330,
+        "deuda": 0,
+        "victorias": 1,
+        "derrotas": 0,
+        "empates": 0,
+        "racha_ganadas": 1,
+        "racha_perdidas": 0
+    }
+}
