@@ -1,0 +1,14 @@
+venv312/
+__pycache__/
+
+
+favicon.ico
+importan!.txt
+
+# Compilados y binarios
+build/
+release/
+dist/
+*.exe
+*.dll
+*.bat
