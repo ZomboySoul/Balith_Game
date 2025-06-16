@@ -6,7 +6,7 @@ favicon.ico
 importan!.txt
 
 # Compilados y binarios
-build/
+builds/
 release/
 dist/
 *.exe
