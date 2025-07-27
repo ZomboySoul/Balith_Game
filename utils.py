@@ -59,7 +59,7 @@ def mostrar_mano(mano, ocultar_primera=False):
         valor = carta[0]
 
         # Ajuste para que el símbolo ocupe dos espacios
-        print(f"{color}│ {Fore.RESET}{valor:<2} {color}{simbolo:<2}│", end="  ")
+        print(f"{color}│ {Fore.RESET}{valor:<2}  {color}{simbolo:<2}│", end="  ")
     print()  # Espacio después de la segunda línea
 
     for carta in cartas_a_mostrar:
@@ -76,7 +76,7 @@ def mostrar_mano(mano, ocultar_primera=False):
         valor = carta[0]
 
         # Ajuste para que el símbolo ocupe dos espacios
-        print(f"{color}│ {simbolo:<2}{Fore.RESET}{valor:>2}{color} │", end="  ")
+        print(f"{color}│ {simbolo:<2}{Fore.RESET} {valor:>2}{color} │", end="  ")
     print()  # Espacio después de la cuarta línea
 
     for carta in cartas_a_mostrar:

@@ -1,20 +1,81 @@
-# 🃏 Balith: Blackjack en Consola (CMD) con Python
 
-**Balith** es un juego de **Blackjack** (también conocido como 21) desarrollado en Python para ejecutarse en consola (CMD). El proyecto está organizado utilizando **modularización**, separando la lógica en distintos archivos para una mejor estructura, mantenimiento y escalabilidad.
+<p align="center">
+  <img
+    src="favicon.ICO"
+    alt="IMAGE LOGO"
+    style=" width: 150px; height:150px;" />
+</p>
+
+<h1 align="center">BALITH GAME</h1>
 
 ---
 
-## 📜 Descripción del Juego
-
+<p align="center">
 Balith es una versión clásica del Blackjack donde el jugador compite contra el crupier (la banca) para alcanzar 21 puntos sin pasarse. El juego permite apostar, llevar registro de partidas ganadas, y ofrece una experiencia visual mejorada para consola gracias a módulos como `colorama`.
 Además, cuenta con un sistema de usuarios que se guarda en un archivo **JSON** a modo de base de datos local.
+</p>
+
+
+<p align="center">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-python-00ffff?logo=python&logoColor=000000" />
+  <img alt="Status" src="https://img.shields.io/badge/status-in%20development-ff00ff" />
+  <img alt="Interface" src="https://img.shields.io/badge/interface-command%20line-ff007f?logo=windows-terminal&logoColor=white" />
+  <img alt="Style" src="https://img.shields.io/badge/style-text--based-6666ff" />
+  <img alt="Language" src="https://img.shields.io/badge/lang-es-cc00ff" />
+  <img alt="License" src="https://img.shields.io/github/license/ZomboySoul/fnaf_signal_lost" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="https://github.com/ZomboySoul/fnaf_signal_lost/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml" target="_blank" rel="noopener noreferrer">Reportar Bug</a>
+</p>
+<p align="center">
+  <a href="docs/README_fr.md">Français</a> ·  
+  <a href="docs/README_cn.md">简体中文</a> ·
+  <a href="docs/README_es.md">Español</a> ·
+  <a href="docs/README_ja.md">日本語</a> ·
+  <a href="docs/README_pt-BR.md">Português Brasileiro</a> ·
+  <a href="docs/README_it.md">Italiano</a>
+</p>
+
+<br>
+
+## 🧠 Características
+
+- Blackjack clásico contra la banca.
+- Sistema de usuarios con almacenamiento persistente.
+- Estadísticas personales por jugador.
+- Animaciones y texto decorado en consola.
+- Modularización completa del código para mayor limpieza y escalabilidad.
+- Funcionlidad de prestamos a la banca
+- Posibilidad de expandir con nuevas funcionalidades (logros, torneos,etc.).
 
 ---
 
-## 📂 Estructura del Proyecto
+## 🎮 Cómo Jugar
 
 ```bash
-balith/
+# Clona el repositorio
+git clone https://github.com/zomboysoul/Balit_Game.git
+cd Balit_Game
+
+# Python 3.10 y Colorama
+#Instálalo con:
+
+pip install colorama
+
+# Ejecuta el juego
+python main.py
+
+```
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+.
 ├── interzas.py
 ├── juego.py
 ├── jugadores.py
@@ -22,10 +83,6 @@ balith/
 ├── main.py
 └── utils.py
 ```
-
----
-
-## 📄 Descripción de Archivos
 
 | Archivo                  | Descripción                                                                                                                                                                                      |
 | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -38,53 +95,23 @@ balith/
 
 ---
 
-## ⚙️ Tecnologías Utilizadas
+## 📸 Captura de Pantalla
 
-- **Python 3.13+**
-- **Colorama** (para color en consola)
-- **JSON** (para almacenamiento local)
-- Librerías estándar de Python (`random`, `os`, `time`, etc.)
+![image 1](assets/sesion.png)
 
----
+![image 2](assets/register.png)
 
-## 🚀 Cómo Ejecutarlo
+![image 3](assets/men.png)
 
-1. Cloná o descargá este repositorio.
-2. Asegurate de tener Python 3.13 o superior instalado.
-3. Instalá las dependencias necesarias:
+![image 4](assets/ranking.png)
 
-```bash
-pip install colorama
-```
+![image 5](assets/game.png)
 
-4. Ejecutá el juego desde consola:
-
-```bash
-python main.py
-```
+![image 6](assets/defeat.png)
 
 ---
 
-## 🎮 Características
+## 🧑‍💻 Programador - Creador
 
-- Blackjack clásico contra la banca.
-- Sistema de usuarios con almacenamiento persistente.
-- Estadísticas personales por jugador.
-- Animaciones y texto decorado en consola.
-- Modularización completa del código para mayor limpieza y escalabilidad.
-- Funcionlidad de prestamos a la banca
-- Posibilidad de expandir con nuevas funcionalidades (logros, torneos,etc.).
-
----
-
-## 📌 Notas
-
-- El archivo `jugadores.json` se genera automáticamente si no existe, y guarda todos los datos de los usuarios de forma local.
-- Diseñado para ejecutarse en **consola CMD** o **Terminal**.
-
----
-
-## 🤝 Créditos
-
-Desarrollado por **Agustin Lezcano - ZomboySoul - Bytech Technology**
-Si te gustó o querés aportar ideas, ¡no dudes en colaborar!
+**Agustín Lezcano - ZomboySoul**
+🔗 [GitHub](https://github.com/ZomboySoul) | 🇦🇷 Argentina
