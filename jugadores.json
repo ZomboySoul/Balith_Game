@@ -18,5 +18,20 @@
         "empates": 0,
         "racha_ganadas": 1,
         "racha_perdidas": 0
+    },
+    "ZomboySoul": {
+        "clave": "2fdf5106600a17bb776404c63686331894786488841ffe2717623b803814b8cf",
+        "saldo": 80,
+        "deuda": 0,
+        "victorias": 0,
+        "derrotas": 1,
+        "empates": 1,
+        "racha_ganadas": 0,
+        "racha_perdidas": 1
+    },
+    "Agustin": {
+        "clave": "2fdf5106600a17bb776404c63686331894786488841ffe2717623b803814b8cf",
+        "saldo": 100,
+        "deuda": 0
     }
 }
