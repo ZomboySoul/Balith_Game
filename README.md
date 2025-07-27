@@ -1,7 +1,6 @@
-
 <p align="center">
   <img
-    src="favicon.ICO"
+    src="assets/favicon.ICO"
     alt="IMAGE LOGO"
     style=" width: 150px; height:150px;" />
 </p>
@@ -14,7 +13,6 @@
 Balith es una versión clásica del Blackjack donde el jugador compite contra el crupier (la banca) para alcanzar 21 puntos sin pasarse. El juego permite apostar, llevar registro de partidas ganadas, y ofrece una experiencia visual mejorada para consola gracias a módulos como `colorama`.
 Además, cuenta con un sistema de usuarios que se guarda en un archivo **JSON** a modo de base de datos local.
 </p>
-
 
 <p align="center">
   <img alt="Platform" src="https://img.shields.io/badge/platform-python-00ffff?logo=python&logoColor=000000" />
