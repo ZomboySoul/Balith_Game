@@ -1,8 +1,8 @@
 <p align="center">
   <img
-    src="assets/favicon.ICO"
+    src="assets/favicon.png"
     alt="IMAGE LOGO"
-    style=" width: 150px; height:150px;" />
+    style=" width: 140px; height:200px;" />
 </p>
 
 <h1 align="center">BALITH GAME</h1>
